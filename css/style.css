@@ -16,7 +16,6 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  position: fixed;
 }
 
 .hero nav {
