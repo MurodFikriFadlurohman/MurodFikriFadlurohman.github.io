@@ -64,9 +64,19 @@
 
     <!-- Profile -->
     <div class="profile" id="profile">
-      <div class="main" data-aos="fade-up">
+      <div
+        class="main"
+        data-aos="fade-right"
+        data-aos-delay="660"
+        data-aos-duration="1200"
+      >
         <img src="img/Murod(6).jpeg" />
-        <div class="Text-profile">
+        <div
+          class="Text-profile"
+          data-aos="fade-left"
+          data-aos-delay="1000"
+          data-aos-duration="950"
+        >
           <h2>About Me</h2>
           <h5>Developer <span>& Designer</span></h5>
           <p>
@@ -91,12 +101,17 @@
     </div>
 
     <!-- Skill -->
-    <div class="skill" id="skill" data-aos="fade-up">
+    <div class="skill" id="skill">
       <div class="title">
         <h2>My Skill</h2>
       </div>
 
-      <div class="box">
+      <div
+        class="box"
+        data-aos="fade-up"
+        data-aos-delay="660"
+        data-aos-duration="1200"
+      >
         <div class="card">
           <i class="fa-brands fa-html5 icons"></i>
           <h5>HTML</h5>
@@ -158,7 +173,12 @@
       <!-- Gallery -->
       <div class="Gallery" id="gallery">
         <h2 data-aos="fade-up">Gallery</h2>
-        <div class="Gallery-1" data-aos="fade-up">
+        <div
+          class="Gallery-1"
+          data-aos="fade-up"
+          data-aos-delay="300"
+          data-aos-duration="1000"
+        >
           <img src="img/murod(1).jpg" />
           <img src="img/Murod(2).jpg" />
           <img src="img/Murod(3).jpg" />
@@ -214,7 +234,9 @@
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-      AOS.init();
+      AOS.init({
+        once: true,
+      });
     </script>
   </body>
 </html>
