@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -412,4 +412,11 @@ textarea {
 
 .send:hover {
   background-color: #100f0f;
+}
+
+.footer {
+  background-color: #b9b4c7;
+  padding: 10px;
+  color: #100f0f;
+  text-align: center;
 }
