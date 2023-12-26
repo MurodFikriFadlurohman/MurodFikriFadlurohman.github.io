@@ -235,7 +235,6 @@ nav ul li a:hover {
 .skill {
   width: 100%;
   padding: 100px 0px;
-  /* font-size: 12px; */
 }
 
 .title h2 {
@@ -254,7 +253,6 @@ nav ul li a:hover {
 }
 
 .card {
-  /* height: 365px; */
   width: 280px;
   padding: 20px 20px;
   background-color: #b9b4c7;
@@ -347,6 +345,7 @@ nav ul li a:hover {
   width: 300px;
   height: 300px;
   border: 2px solid #352f44;
+  filter: grayscale(1);
   border-radius: 13px;
   box-shadow: 4px 7px 7px 0px #00000042;
   cursor: pointer;
@@ -355,7 +354,7 @@ nav ul li a:hover {
 }
 
 .Gallery-1 img:hover {
-  filter: grayscale(1);
+  filter: saturate(1);
   transform: scale(1.03);
 }
 
@@ -364,7 +363,6 @@ nav ul li a:hover {
   background-color: #b9b4c7;
   width: 590px;
   margin: 50px auto;
-  /* margin-left: 30%; */
   border-radius: 5px;
   border: 2px solid #b9b4c7;
   padding: 15px;
@@ -374,7 +372,6 @@ nav ul li a:hover {
 
 .Contact-1 {
   justify-content: space-around;
-  /* width: 1130px; */
   margin: 30px auto 70px;
   font-size: 75px;
   color: #000;
